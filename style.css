@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    transition: all 0.5s ease;
+}
+
+.btn-operator {
+    background-color: #fe9501;
+    color: #eceded;
+}
+
+.btn-decimal {
+    background-color: #333333;
+    color: #eceded;
+}
+
+.btn-code {
+    background-color: #a5a5a5
+}
+
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    background-image: linear-gradient(to bottom right, rgba(79, 51, 176, 1.0), rgba(210, 53, 165));
+}
+
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    color: #f1c83c;
+}
+
+.top-container {
+    display: flex;
+    height: 20px;
+    padding: 3px 14px;
+    color: #fff;
+    align-content: stretch;
+    justify-content: flex-start;
+}
+
+img {
+    padding-left: 117px;
+}
+
+.calculator {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 30px #000;
+    background-color: #000;
+    border: 5px solid #8c8c8c;
+}
+
+#display {
+    margin: 0 10px;
+    height: 150px;
+    width: auto;
+    max-width: 270px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-bottom: 20px;
+    overflow-x: scroll;
+}
+
+#display::-webkit-scrollbar {
+    display: block;
+    height: 3px;
+}
+
+.display-screen {
+    margin-top: 35px;
+}
+
+
+button {
+    height: 60px;
+    width: 60px;
+    border: 0;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.btn-0 {
+    width: 130px
+}
+
+.calculator #display {
+    color: #fcfcfc;
+}
+
+.calculator button#clear {
+    background-color: #a5a5a5;
+    color: #323232;
+}
+
+.calculator button.btn-number {
+    background-color: #333333;
+    color: #eceded;
+}
+
+.author {
+    padding: 10px 0;
+}
+
+.author a {
+    color: beige;
+    text-decoration: none;
+}
+
+.author:hover a {
+    color: rgb(10, 244, 244);
+}
